@@ -1,0 +1,26 @@
+一 安装git后
+git config --global user.name "zhangxinyu"
+git config --global user.email "zhangxinyu1125@gmail.com"
+
+二 创建本地仓库
+git init 
+
+三 相关命令
+git add <file>
+git commit -m "备注"
+
+git status 
+git diff
+git log --pretty 
+git reset --hard commit_id 回退版本 commit_id为7位数字
+git reflog 执行过的命令
+git checkout -- file 恢复工作区
+git reset HEAD file 丢弃提交到暂存区的修改
+
+rm test.txt     ；  git rm  test.txt   ；  git commit
+
+ssh-keygen -t rsa -C "youremail@example.com"
+生成  id_rsa私钥 和id_rsa.pub公钥
+git remote add origin git@github.com:michaelliao/learngit.git 本地仓库链接远程仓库
+
+
